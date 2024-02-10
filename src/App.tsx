@@ -6,16 +6,14 @@ function App() {
 
   return (
     <>
-      <h1>Notification count = {count}</h1>
+      <h1>Notifications count = {count}</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           Increment
         </button>
-        
         <button onClick={() => setCount(0)}>
         Reset
         </button>
-        
       </div>
       
     </>
